@@ -1,4 +1,4 @@
-# @lsage/logger
+# @ls-age/logger
 
 [![CircleCI](https://circleci.com/gh/ls-age/logger.svg?style=shield)](https://circleci.com/gh/ls-age/logger)
 [![codecov](https://codecov.io/gh/ls-age/logger/branch/master/graph/badge.svg)](https://codecov.io/gh/ls-age/logger)
