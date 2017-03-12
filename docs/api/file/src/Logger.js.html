@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/Logger.js | @lsage/logger API Document</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <a data-ice="repoURL" href="https://github.com/ls-age/logger" class="repo-url-github">Repository</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Logger.js~Logger.html">Logger</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-logger">logger</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">typedef</div><span data-ice="kind" class="kind-external">E</span><span data-ice="name"><span><a href="https://nodejs.org/api/stream.html#stream_class_stream_writable">stream~Writable</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/Logger.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import Emitter from &apos;events&apos;;
+import { EOL } from &apos;os&apos;;
+import chalk from &apos;chalk&apos;;
+import pad from &apos;left-pad&apos;;
+
+/**
+ * The logger class. **Please note that, when importing default from this module, you will always
+ * get a shared Logger instance.**
+ * @see {@link logger}
+ */
+export default class Logger extends Emitter {
+
+  /**
+   * The default log types.
+   * @type {string[]} Default log types.
+   */
+  static get defaultTypes() {
+    return [&apos;error&apos;, &apos;warn&apos;, &apos;info&apos;, &apos;debug&apos;];
+  }
+
+  /**
+   * Creates a new Logger with the given options.
+   * @param {Object} [options] The options to use.
+   * @param {string[]} [options.types=Logger.defaultTypes] The log types the new
+   * instance should have.
+   */
+  constructor(options = {}) {
+    super();
+
+    /**
+     * The log types available.
+     * @type {string[]}
+     */
+    this._types = (options.types || Logger.defaultTypes);
+
+    this._types
+      .forEach((type, i) =&gt; {
+        /**
+         * Prints the given messages for the given message types.
+         * @param {...*} messages The messages to print.
+         * @return {Logger} The logger instance.
+         * @emits {string} Emits an event named after `type` with the message printed.
+         *
+         * @example &lt;caption&gt;Subscribing to specific log types&lt;/caption&gt;
+         * Logger.on(&apos;warn&apos;, msg =&gt; console.log(&apos;Warning:&apos;, msg))
+         *   .warn(&apos;Test warning&apos;);
+         * // Will print &quot;Waring: Test warning&quot; to the console.
+         */
+        this[type] = (...messages) =&gt; this.emit(type, this._format(messages));
+
+        const typeName = type.toUpperCase();
+
+        /**
+         * The log levels available.
+         * @type {number}
+         */
+        this[&apos;LEVEL_&apos; + typeName] = i + 1; // eslint-disable-line prefer-template
+      });
+
+    /**
+     * The colors used.
+     * @type {chalk}
+     */
+    this.colors = chalk;
+  }
+
+  /**
+   * The message prefix. Override this getter in your own logger class to customize output.
+   * @type {string}
+   */
+  get prefix() {
+    const now = new Date();
+    return `[${this.colors.gray([
+      now.getHours(),
+      now.getMinutes(),
+      now.getSeconds(),
+    ].map(n =&gt; pad(n, 2, &apos;0&apos;)).join(&apos;:&apos;))}]`;
+  }
+
+  /**
+   * Creates a log message from some messages, prefixed and postfixed with a newline.
+   * @param {*[]} messages The messages to format.
+   * @return {string} The resulting message.
+   */
+  _format(messages) {
+    return `${this.prefix} ${
+      messages
+        .map(msg =&gt; msg)
+        .join(&apos; &apos;)
+    }${EOL}`;
+  }
+
+  /**
+   * Returns the log types that should be handled for the specific log level.
+   * @param {number} logLevel The log level to use.
+   * @return {string[]} The log types to handle.
+   */
+  typesForLevel(logLevel) {
+    return this._types
+      .filter((_, i) =&gt; i &lt;= (logLevel - 1));
+  }
+
+  /**
+   * Writes all logs to a writable stream.
+   * @param {stream~Writable} stream The stream to write to
+   * @param {Object} [options] The options to use.
+   * @param {number} [options.logLevel=3] The log level from which to write.
+   * @return {Logger} The logger instance.
+   *
+   * @example &lt;caption&gt;Pipe logger output to stdout&lt;/caption&gt;
+   * Logger.pipe(process.stdout);
+   *
+   * @example &lt;caption&gt;Pipe with specific log level&lt;/caption&gt;
+   * Logger.pipe(process.stdout, { logLevel: Logger.LEVEL_ERROR });
+   * // In this case, only error messages will be printed to stdout
+   */
+  pipe(stream, options = {}) {
+    const logLevel = options.logLevel === undefined ? 3 : options.logLevel;
+    const listener = m =&gt; stream.write(m);
+
+    this.typesForLevel(logLevel)
+      .forEach(level =&gt; this.on(level, listener));
+
+    stream.once(&apos;finish&apos;, () =&gt; this.typesForLevel(logLevel)
+      .forEach(level =&gt; this.removeListener(level, listener))
+    );
+
+    return this;
+  }
+
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.5.2)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
