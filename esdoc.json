@@ -11,5 +11,10 @@
     {
       "name": "esdoc-plugin-require-coverage"
     }
-  ]
+  ],
+  "manual": {
+    "usage": [
+      "docs/manual/usage/API.md"
+    ]
+  }
 }
