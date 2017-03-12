@@ -1,0 +1,15 @@
+{
+  "title": "@lsage/logger",
+  "source": "src",
+  "destination": "docs/api",
+  "access": ["public", "package", "private"],
+  "test": {
+    "type": "mocha",
+    "source": "./test/src"
+  },
+  "plugins": [
+    {
+      "name": "esdoc-plugin-require-coverage"
+    }
+  ]
+}
