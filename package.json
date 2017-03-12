@@ -12,7 +12,7 @@
     "test": "mocha --recursive --require babel-register \"test/src/**/*.spec.js\"",
     "test:watch": "npm test -- --watch --reporter min",
     "test:coverage": "NODE_ENV=test nyc --reporter=html npm test",
-    "test:docs": "blcl docs/api --exclude https://circleci.com/gh/atSCM/atscm"
+    "test:docs": "blcl docs/api --exclude https://circleci.com/gh/ls-age/logger"
   },
   "repository": {
     "type": "git",
