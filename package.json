@@ -1,5 +1,5 @@
 {
-  "name": "@lsage/logger",
+  "name": "@ls-age/logger",
   "version": "0.1.0",
   "description": "Logging made easy",
   "main": "out/index.js",
