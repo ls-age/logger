@@ -33,6 +33,12 @@ export default class Logger extends Emitter {
      */
     this._types = (options.types || Logger.defaultTypes);
 
+    /**
+     * The log level where no messages are printed.
+     * @type {number}
+     */
+    this.LEVEL_SILENT = 0;
+
     this._types
       .forEach((type, i) => {
         /**
