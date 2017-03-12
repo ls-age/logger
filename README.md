@@ -9,7 +9,7 @@ With [node](https://nodejs.org) (version 6 or later) installed run `npm install 
 ## Usage
 
 ```javascript
-import Logger from '@lsage/logger';
+import Logger from '@ls-age/logger';
 
 // Pipe all logs to stdout
 Logger.pipe(process.stdout);
