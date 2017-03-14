@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/ls-age/logger/compare/v0.1.2...v0.2.0) (2017-03-14)
+
+
+### Bug Fixes
+
+* **release:** Publish generated files to npm ([7a0f82b](https://github.com/ls-age/logger/commit/7a0f82b))
+
+
+
 <a name="0.1.2"></a>
 ## [0.1.2](https://github.com/ls-age/logger/compare/v0.1.1...v0.1.2) (2017-03-12)
 
