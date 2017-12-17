@@ -17,7 +17,7 @@ describe('Logger', function() {
     it('should return an emitter', function() {
       expect(new Logger(), 'to be an', Emitter);
     });
-    
+
     it('should handle types option', function() {
       const types = ['first', 'second'];
       expect((new Logger({ types }))._types, 'to be', types);
