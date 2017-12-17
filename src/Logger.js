@@ -23,7 +23,7 @@ export default class Logger extends Emitter {
    * @param {Object} [options] The options to use.
    * @param {string[]} [options.types=Logger.defaultTypes] The log types the new
    * instance should have.
-   * @param {string[]|string} [options.scope=[]] The logger's scope
+   * @param {string[]|string} [options.scope=[]] The logger's scope.
    */
   constructor({ types = Logger.defaultTypes, scope = [], timestamp = true } = {}) {
     super();
