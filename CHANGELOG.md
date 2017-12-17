@@ -1,10 +1,11 @@
-<a name="0.3.0-beta.0"></a>
-# 0.3.0-beta.0 (2017-12-17)
+<a name="0.3.0-beta.1"></a>
+# 0.3.0-beta.1 (2017-12-17)
 
 
 ### Features
 
 * **Logger:** Add `scope` to prefix logs ([cec7e3a](https://github.com/ls-age/logger/commits/cec7e3a))
+* **Logger:** Use #createChild to create child instances ([d8cb969](https://github.com/ls-age/logger/commits/d8cb969))
 
 
 
