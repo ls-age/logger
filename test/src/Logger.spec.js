@@ -17,7 +17,7 @@ describe('Logger', function() {
     it('should return an emitter', function() {
       expect(new Logger(), 'to be an', Emitter);
     });
-    
+
     it('should handle types option', function() {
       const types = ['first', 'second'];
       expect((new Logger({ types }))._types, 'to be', types);
@@ -40,6 +40,62 @@ describe('Logger', function() {
         expect(logger[`LEVEL_${type.toUpperCase()}`], 'to be a', 'number');
       });
     });
+
+    it('should store scope array', function() {
+      const scope = ['scope', 'another'];
+      const logger = new Logger({ scope });
+
+      expect(logger.scope, 'to equal', scope);
+    });
+
+    it('should store single scope', function() {
+      const scope = 'scope';
+      const logger = new Logger({ scope });
+
+      expect(logger.scope, 'to equal', [scope]);
+    });
+
+    it('should set no scope if omitted', function() {
+      const logger = new Logger({ scope: false });
+
+      expect(logger.scope, 'to equal', []);
+    });
+  });
+
+  /** @test {Logger#createChild} */
+  describe('#createChild', function() {
+    it('should create a new logger instance', function() {
+      const parent = new Logger();
+      const child = parent.createChild('child');
+
+      expect(child, 'to be a', Logger);
+    });
+
+    it('should forward events to original instance', function() {
+      const parent = new Logger();
+      const child = parent.createChild('child');
+
+      const messageReceived = new Promise(resolve => {
+        parent.on('info', resolve);
+      });
+
+      child.info('Test message');
+
+      return expect(messageReceived, 'when fulfilled', 'to contain', 'Test message');
+    });
+
+    it('should prefix messages with name', function() {
+      const parent = new Logger();
+      const child = parent.createChild('child');
+
+      const messageReceived = new Promise(resolve => {
+        parent.on('info', resolve);
+      });
+
+      child.info('Test message');
+
+      return expect(messageReceived, 'when fulfilled', 'to contain', 'child');
+    });
   });
 
   /** @test {Logger#[type]} */
@@ -59,6 +115,19 @@ describe('Logger', function() {
           logger[type](`${type} message`);
         }))
       );
+    });
+
+    it('should print scope', function() {
+      const scope = 'scope';
+      const logger = new Logger({ scope });
+
+      const messageReceived = new Promise(resolve => {
+        logger.on('info', resolve);
+      });
+
+      logger.info('Test message');
+
+      return expect(messageReceived, 'when fulfilled', 'to contain', 'scope');
     });
   });
 

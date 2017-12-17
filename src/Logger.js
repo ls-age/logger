@@ -23,15 +23,16 @@ export default class Logger extends Emitter {
    * @param {Object} [options] The options to use.
    * @param {string[]} [options.types=Logger.defaultTypes] The log types the new
    * instance should have.
+   * @param {string[]|string} [options.scope=[]] The logger's scope
    */
-  constructor(options = {}) {
+  constructor({ types = Logger.defaultTypes, scope = [] } = {}) {
     super();
 
     /**
      * The log types available.
      * @type {string[]}
      */
-    this._types = (options.types || Logger.defaultTypes);
+    this._types = types;
 
     /**
      * The log level where no messages are printed.
@@ -64,10 +65,40 @@ export default class Logger extends Emitter {
       });
 
     /**
+     * The current logger scope.
+     * @type {string[]}
+     */
+    this._scope = Array.isArray(scope) ? scope : ((scope && [scope]) || []);
+
+    /**
      * The colors used.
      * @type {chalk}
      */
     this.colors = chalk;
+  }
+
+  /**
+   * The current logger scope.
+   * @type {string[]}
+   */
+  get scope() {
+    return this._scope;
+  }
+
+  /**
+   * Creates a child logger instance. Basically creates a new logger instance with the same setup
+   * with `name` as an additional scope entry.
+   * @param {string} name The child logger's name.
+   * @return {Logger} A new logger instance.
+   */
+  createChild(name) {
+    const child = new Logger({ types: this._types, scope: this.scope.concat(name) });
+
+    this._types.forEach(type => {
+      child.on(type, e => this.emit(type, e));
+    });
+
+    return child;
   }
 
   /**
@@ -76,11 +107,11 @@ export default class Logger extends Emitter {
    */
   get prefix() {
     const now = new Date();
-    return `[${this.colors.gray([
+    return [`[${this.colors.gray([
       now.getHours(),
       now.getMinutes(),
       now.getSeconds(),
-    ].map(n => pad(n, 2, '0')).join(':'))}]`;
+    ].map(n => pad(n, 2, '0')).join(':'))}]`, ...this._scope].join(' ');
   }
 
   /**
