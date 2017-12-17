@@ -40,6 +40,26 @@ describe('Logger', function() {
         expect(logger[`LEVEL_${type.toUpperCase()}`], 'to be a', 'number');
       });
     });
+
+    it('should store scope array', function() {
+      const scope = ['scope', 'another'];
+      const logger = new Logger({ scope });
+
+      expect(logger.scope, 'to equal', scope);
+    });
+
+    it('should store single scope', function() {
+      const scope = 'scope';
+      const logger = new Logger({ scope });
+
+      expect(logger.scope, 'to equal', [scope]);
+    });
+
+    it('should set no scope if omitted', function() {
+      const logger = new Logger({ scope: false });
+
+      expect(logger.scope, 'to equal', []);
+    });
   });
 
   /** @test {Logger#[type]} */
@@ -59,6 +79,19 @@ describe('Logger', function() {
           logger[type](`${type} message`);
         }))
       );
+    });
+
+    it('should print scope', function() {
+      const scope = 'scope';
+      const logger = new Logger({ scope });
+
+      const messageReceived = new Promise(resolve => {
+        logger.on('info', resolve);
+      });
+
+      logger.info('Test message');
+
+      return expect(messageReceived, 'when fulfilled', 'to contain', 'scope');
     });
   });
 
