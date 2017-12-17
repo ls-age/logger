@@ -10,10 +10,6 @@ dependencies:
     # For some reason this plugin is not automatically installed inside the CircleCI container
     - npm install eslint-plugin-import@latest
 
-    # Needed for proper mocha test results
-    - npm install mocha-circleci-reporter
-    - npm install codecov
-
     # Needed for hosted API docs
     - npm install esdoc-uploader
 
