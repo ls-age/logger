@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: circleci/node:8
     environment:
-      MOCHA_FILE: '~/reports/mocha.xml'
+      MOCHA_FILE: '../reports/mocha.xml'
     steps:
       - checkout
       - restore_cache:
