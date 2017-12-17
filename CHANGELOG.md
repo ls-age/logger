@@ -1,3 +1,14 @@
+<a name="0.5.0-beta.0"></a>
+# 0.5.0-beta.0 (2017-12-17)
+
+
+### Features
+
+* Do not print timestamps if created with `timestamp: false` ([ea32a3a](https://github.com/ls-age/logger/commits/ea32a3a))
+
+
+
+
 <a name="0.4.0"></a>
 # 0.4.0 (2017-12-17)
 
