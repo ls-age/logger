@@ -1,6 +1,6 @@
 {
   "name": "@ls-age/logger",
-  "version": "0.4.0-beta.0",
+  "version": "0.4.0",
   "description": "Logging made easy",
   "main": "out/index.js",
   "scripts": {
