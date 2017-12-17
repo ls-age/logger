@@ -165,7 +165,7 @@ describe('Logger', function() {
 
       logger.info('Test message');
 
-      return expect(messageReceived, 'when fulfilled', 'to equal', 'Test message\n');
+      return expect(messageReceived, 'when fulfilled', 'to match', /Test message\r?\n/);
     });
   });
 
