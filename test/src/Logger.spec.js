@@ -62,6 +62,42 @@ describe('Logger', function() {
     });
   });
 
+  /** @test {Logger#createChild} */
+  describe('#createChild', function() {
+    it('should create a new logger instance', function() {
+      const parent = new Logger();
+      const child = parent.createChild('child');
+
+      expect(child, 'to be a', Logger);
+    });
+
+    it('should forward events to original instance', function() {
+      const parent = new Logger();
+      const child = parent.createChild('child');
+
+      const messageReceived = new Promise(resolve => {
+        parent.on('info', resolve);
+      });
+
+      child.info('Test message');
+
+      return expect(messageReceived, 'when fulfilled', 'to contain', 'Test message');
+    });
+
+    it('should prefix messages with name', function() {
+      const parent = new Logger();
+      const child = parent.createChild('child');
+
+      const messageReceived = new Promise(resolve => {
+        parent.on('info', resolve);
+      });
+
+      child.info('Test message');
+
+      return expect(messageReceived, 'when fulfilled', 'to contain', 'child');
+    });
+  });
+
   /** @test {Logger#[type]} */
   describe('#[type]', function() {
     it('should emit `type` events', function() {

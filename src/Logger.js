@@ -86,6 +86,22 @@ export default class Logger extends Emitter {
   }
 
   /**
+   * Creates a child logger instance. Basically creates a new logger instance with the same setup
+   * with `name` as an additional scope entry.
+   * @param {string} name The child logger's name.
+   * @return {Logger} A new logger instance.
+   */
+  createChild(name) {
+    const child = new Logger({ types: this._types, scope: this.scope.concat(name) });
+
+    this._types.forEach(type => {
+      child.on(type, e => this.emit(type, e));
+    });
+
+    return child;
+  }
+
+  /**
    * The message prefix. Override this getter in your own logger class to customize output.
    * @type {string}
    */
