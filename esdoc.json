@@ -1,20 +1,30 @@
 {
-  "title": "@lsage/logger",
   "source": "src",
   "destination": "docs/api",
-  "access": ["public", "package", "private"],
-  "test": {
-    "type": "mocha",
-    "source": "./test/src"
-  },
   "plugins": [
+    {
+      "name": "esdoc-standard-plugin",
+      "option": {
+        "brand": {
+          "title": "@lsage/logger"
+        },
+        "accessor": {
+          "access": ["public", "package", "private"]
+        },
+        "test": {
+          "type": "mocha",
+          "source": "./test/src"
+        },
+        "manual": {
+          "files": [
+            "./docs/manual/usage/API.md",
+            "./CHANGELOG.md"
+          ]
+        }
+      }
+    },
     {
       "name": "esdoc-plugin-require-coverage"
     }
-  ],
-  "manual": {
-    "usage": [
-      "docs/manual/usage/API.md"
-    ]
-  }
+  ]
 }

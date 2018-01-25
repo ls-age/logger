@@ -5,9 +5,11 @@ import { spy } from 'sinon';
 import Logger from '../../src/Logger';
 
 class NoopTransformStream extends Transform {
+
   _transform(chunk, enc, callback) {
     callback(null, chunk);
   }
+
 }
 
 /** @test {Logger} */

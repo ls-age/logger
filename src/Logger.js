@@ -156,7 +156,7 @@ export default class Logger extends Emitter {
 
   /**
    * Writes all logs to a writable stream.
-   * @param {stream~Writable} stream The stream to write to
+   * @param {stream~Writable} stream The stream to write to.
    * @param {Object} [options] The options to use.
    * @param {number} [options.logLevel=3] The log level from which to write.
    * @return {Logger} The logger instance.
