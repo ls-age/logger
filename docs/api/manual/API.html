@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../">
+  <title data-ice="title">Manual | @lsage/logger</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Logging made easy"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@lsage/logger"><meta property="twitter:description" content="Logging made easy"></head>
+<body class="layout-container manual-root" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/ls-age/logger"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div class="manual-toc-root">
+  
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/API.html"><a href="manual/API.html" data-ice="link">API</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/API.html"><a href="manual/API.html#using-the-logger" data-ice="link">Using the logger</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/API.html"><a href="manual/API.html#print-logs-to-stdout" data-ice="link">Print logs to stdout</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/API.html"><a href="manual/API.html#log-types-and-levels" data-ice="link">Log types and levels</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/API.html"><a href="manual/API.html#create-a-custom-instance" data-ice="link">Create a custom instance</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#0-5-0-beta-0--2017-12-17-" data-ice="link">0.5.0-beta.0 (2017-12-17)</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#features" data-ice="link">Features</a></li>
+<li data-ice="manualNav" class="indent-h1" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#0-4-0--2017-12-17-" data-ice="link">0.4.0 (2017-12-17)</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#features" data-ice="link">Features</a></li>
+<li data-ice="manualNav" class="indent-h1" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#0-2-0--2017-03-14-" data-ice="link">0.2.0 (2017-03-14)</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#bug-fixes" data-ice="link">Bug Fixes</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#0-1-2--2017-03-12-" data-ice="link">0.1.2 (2017-03-12)</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#bug-fixes" data-ice="link">Bug Fixes</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#features" data-ice="link">Features</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#0-1-1--2017-03-12-" data-ice="link">0.1.1 (2017-03-12)</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#bug-fixes" data-ice="link">Bug Fixes</a></li>
+<li data-ice="manualNav" class="indent-h1" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#0-1-0--2017-03-12-" data-ice="link">0.1.0 (2017-03-12)</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#bug-fixes" data-ice="link">Bug Fixes</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#features" data-ice="link">Features</a></li>
+</ul>
+  </div>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div class="github-markdown" data-ice="content"><h1 id="api">API</h1><blockquote>
+<p><strong>Note:</strong> This module is written in <a href="http://babeljs.io/learn-es2015/">ES2015 JavaScript</a> so make sure you have a basic understanding for ES2015 before you continue reading.</p>
+</blockquote>
+<h2 id="using-the-logger">Using the logger</h2><h3 id="print-logs-to-stdout">Print logs to stdout</h3><p>You can pipe any writeable stream to a Logger by calling <a href="./manual/../../class/src/Logger.js~Logger.html#instance-method-pipe">Logger#pipe</a>. As <em>stout</em> is such a writable stream it can be piped directly:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import Logger from &apos;@ls-age&apos;;
+
+Logger.pipe(process.stdout);</code>
+</code></pre>
+<p>By default, this tells the logger to print all <em>error</em>, <em>warn</em> and <em>info</em> messages to stdout. You can also pass a <em>logLevel</em> option to print just specific messages:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">Logger.pipe({ logLevel: Logger.LEVEL_ERROR });</code>
+</code></pre>
+<h3 id="log-types-and-levels">Log types and levels</h3><p><strong>By default, the <em>error</em>, <em>warn</em>, <em>info</em> and <em>debug</em> are used as types.</strong></p>
+<p>A logger has different message types. Each type has it&apos;s own logging function and level. E.g. when a Logger instance has a <em>info</em> log type, it creates the logging function <code>Logger#info</code> and the level constant <code>Logger#LEVEL_INFO</code>.</p>
+<p>In our example we can log messages by calling:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import Logger from &apos;@ls-age&apos;;
+
+Logger.info(&apos;Debug message&apos;);</code>
+</code></pre>
+<p>Using different log types makes it possible to adjust the logger&apos;s output. When a stream (e.g. stdout) is piped to the logger, only messages with the specified log level or higher are written. For the default log types this means:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">Value</th>
+<th style="text-align:left">Name</th>
+<th style="text-align:center"><code>error</code></th>
+<th style="text-align:center"><code>warn</code></th>
+<th style="text-align:center"><code>info</code></th>
+<th style="text-align:center"><code>debug</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">0</td>
+<td style="text-align:left">LEVEL_SILENT</td>
+<td style="text-align:center">x</td>
+<td style="text-align:center">x</td>
+<td style="text-align:center">x</td>
+<td style="text-align:center">x</td>
+</tr>
+<tr>
+<td style="text-align:right">1</td>
+<td style="text-align:left">LEVEL_ERROR</td>
+<td style="text-align:center">&#x2714;</td>
+<td style="text-align:center">x</td>
+<td style="text-align:center">x</td>
+<td style="text-align:center">x</td>
+</tr>
+<tr>
+<td style="text-align:right">2</td>
+<td style="text-align:left">LEVEL_WARN</td>
+<td style="text-align:center">&#x2714;</td>
+<td style="text-align:center">&#x2714;</td>
+<td style="text-align:center">x</td>
+<td style="text-align:center">x</td>
+</tr>
+<tr>
+<td style="text-align:right">3</td>
+<td style="text-align:left">LEVEL_INFO</td>
+<td style="text-align:center">&#x2714;</td>
+<td style="text-align:center">&#x2714;</td>
+<td style="text-align:center">&#x2714;</td>
+<td style="text-align:center">x</td>
+</tr>
+<tr>
+<td style="text-align:right">4</td>
+<td style="text-align:left">LEVEL_DEBUG</td>
+<td style="text-align:center">&#x2714;</td>
+<td style="text-align:center">&#x2714;</td>
+<td style="text-align:center">&#x2714;</td>
+<td style="text-align:center">&#x2714;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="create-a-custom-instance">Create a custom instance</h2><p>By default, a single shared instance of the <a href="./manual/../../class/src/Logger.js~Logger.html">Logger class</a> is exported. You can create also create custom instance:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import { Logger } from &apos;@ls-age/logger&apos;;
+
+const customLogger = new Logger();</code>
+</code></pre>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.4)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

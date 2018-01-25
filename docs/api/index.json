@@ -1,0 +1,1648 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/Logger.js",
+    "content": "import Emitter from 'events';\nimport { EOL } from 'os';\nimport chalk from 'chalk';\nimport pad from 'left-pad';\n\n/**\n * The logger class. **Please note that, when importing default from this module, you will always\n * get a shared Logger instance.**\n * @see {@link logger}\n */\nexport default class Logger extends Emitter {\n\n  /**\n   * The default log types.\n   * @type {string[]} Default log types.\n   */\n  static get defaultTypes() {\n    return ['error', 'warn', 'info', 'debug'];\n  }\n\n  /**\n   * Creates a new Logger with the given options.\n   * @param {Object} [options] The options to use.\n   * @param {string[]} [options.types=Logger.defaultTypes] The log types the new\n   * instance should have.\n   * @param {string[]|string} [options.scope=[]] The logger's scope.\n   * @param {boolean} [options.timestamp=true] If timestamps should be printed.\n   */\n  constructor({ types = Logger.defaultTypes, scope = [], timestamp = true } = {}) {\n    super();\n\n    /**\n     * The log types available.\n     * @type {string[]}\n     */\n    this._types = types;\n\n    /**\n     * If messages should be prefixed by a timestamp.\n     * @type {boolean}\n     */\n    this._printTimestamp = timestamp;\n\n    /**\n     * The log level where no messages are printed.\n     * @type {number}\n     */\n    this.LEVEL_SILENT = 0;\n\n    this._types\n      .forEach((type, i) => {\n        /**\n         * Prints the given messages for the given message types.\n         * @param {...*} messages The messages to print.\n         * @return {Logger} The logger instance.\n         * @emits {string} Emits an event named after `type` with the message printed.\n         *\n         * @example <caption>Subscribing to specific log types</caption>\n         * Logger.on('warn', msg => console.log('Warning:', msg))\n         *   .warn('Test warning');\n         * // Will print \"Waring: Test warning\" to the console.\n         */\n        this[type] = (...messages) => this.emit(type, this._format(messages));\n\n        const typeName = type.toUpperCase();\n\n        /**\n         * The log levels available.\n         * @type {number}\n         */\n        this['LEVEL_' + typeName] = i + 1; // eslint-disable-line prefer-template\n      });\n\n    /**\n     * The current logger scope.\n     * @type {string[]}\n     */\n    this._scope = Array.isArray(scope) ? scope : ((scope && [scope]) || []);\n\n    /**\n     * The colors used.\n     * @type {chalk}\n     */\n    this.colors = chalk;\n  }\n\n  /**\n   * The current logger scope.\n   * @type {string[]}\n   */\n  get scope() {\n    return this._scope;\n  }\n\n  /**\n   * Creates a child logger instance. Basically creates a new logger instance with the same setup\n   * with `name` as an additional scope entry.\n   * @param {string} name The child logger's name.\n   * @return {Logger} A new logger instance.\n   */\n  createChild(name) {\n    const child = new Logger({\n      types: this._types,\n      scope: this.scope.concat(name),\n      timestamp: this._printTimestamp,\n    });\n\n    this._types.forEach(type => {\n      child.on(type, e => this.emit(type, e));\n    });\n\n    return child;\n  }\n\n  /**\n   * A formatted timestamp.\n   */\n  get timestamp() {\n    const now = new Date();\n\n    return `[${this.colors.gray([\n      now.getHours(),\n      now.getMinutes(),\n      now.getSeconds(),\n    ].map(n => pad(n, 2, '0')).join(':'))}]`;\n  }\n\n  /**\n   * The message prefix. Override this getter in your own logger class to customize output.\n   * @type {string}\n   */\n  get prefix() {\n    return (this._printTimestamp ? [this.timestamp] : []).concat(this._scope);\n  }\n\n  /**\n   * Creates a log message from some messages, prefixed and postfixed with a newline.\n   * @param {*[]} messages The messages to format.\n   * @return {string} The resulting message.\n   */\n  _format(messages) {\n    return `${\n      this.prefix.concat(messages).join(' ')\n    }${EOL}`;\n  }\n\n  /**\n   * Returns the log types that should be handled for the specific log level.\n   * @param {number} logLevel The log level to use.\n   * @return {string[]} The log types to handle.\n   */\n  typesForLevel(logLevel) {\n    return this._types\n      .filter((_, i) => i <= (logLevel - 1));\n  }\n\n  /**\n   * Writes all logs to a writable stream.\n   * @param {stream~Writable} stream The stream to write to.\n   * @param {Object} [options] The options to use.\n   * @param {number} [options.logLevel=3] The log level from which to write.\n   * @return {Logger} The logger instance.\n   *\n   * @example <caption>Pipe logger output to stdout</caption>\n   * Logger.pipe(process.stdout);\n   *\n   * @example <caption>Pipe with specific log level</caption>\n   * Logger.pipe(process.stdout, { logLevel: Logger.LEVEL_ERROR });\n   * // In this case, only error messages will be printed to stdout\n   */\n  pipe(stream, options = {}) {\n    const logLevel = options.logLevel === undefined ? 3 : options.logLevel;\n    const listener = m => stream.write(m);\n\n    this.typesForLevel(logLevel)\n      .forEach(level => this.on(level, listener));\n\n    stream.once('finish', () => this.typesForLevel(logLevel)\n      .forEach(level => this.removeListener(level, listener))\n    );\n\n    return this;\n  }\n\n}\n",
+    "static": true,
+    "longname": "/home/circleci/project/src/Logger.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "Logger",
+    "memberof": "src/Logger.js",
+    "static": true,
+    "longname": "src/Logger.js~Logger",
+    "access": "public",
+    "export": true,
+    "importPath": "@ls-age/logger/src/Logger.js",
+    "importStyle": "Logger",
+    "description": "The logger class. **Please note that, when importing default from this module, you will always\nget a shared Logger instance.**",
+    "see": [
+      "{@link logger}"
+    ],
+    "lineNumber": 11,
+    "interface": false,
+    "extends": [
+      "events~Emitter"
+    ]
+  },
+  {
+    "__docId__": 50,
+    "kind": "get",
+    "name": "defaultTypes",
+    "memberof": "src/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Logger.js~Logger.defaultTypes",
+    "access": "public",
+    "description": "The default log types.",
+    "lineNumber": 17,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string[]"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Logger.js~Logger#constructor",
+    "access": "public",
+    "description": "Creates a new Logger with the given options.",
+    "lineNumber": 29,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "options",
+        "description": "The options to use."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string[]"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "Logger.defaultTypes",
+        "defaultRaw": "Logger.defaultTypes",
+        "name": "options.types",
+        "description": "The log types the new\ninstance should have."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string[]",
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "[]",
+        "defaultRaw": [],
+        "name": "options.scope",
+        "description": "The logger's scope."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "true",
+        "defaultRaw": true,
+        "name": "options.timestamp",
+        "description": "If timestamps should be printed."
+      }
+    ]
+  },
+  {
+    "__docId__": 52,
+    "kind": "member",
+    "name": "_types",
+    "memberof": "src/Logger.js~Logger",
+    "static": false,
+    "longname": "src/Logger.js~Logger#_types",
+    "access": "private",
+    "description": "The log types available.",
+    "lineNumber": 36,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string[]"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "member",
+    "name": "_printTimestamp",
+    "memberof": "src/Logger.js~Logger",
+    "static": false,
+    "longname": "src/Logger.js~Logger#_printTimestamp",
+    "access": "private",
+    "description": "If messages should be prefixed by a timestamp.",
+    "lineNumber": 42,
+    "type": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "member",
+    "name": "LEVEL_SILENT",
+    "memberof": "src/Logger.js~Logger",
+    "static": false,
+    "longname": "src/Logger.js~Logger#LEVEL_SILENT",
+    "access": "public",
+    "description": "The log level where no messages are printed.",
+    "lineNumber": 48,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "member",
+    "name": "[type]",
+    "memberof": "src/Logger.js~Logger",
+    "static": false,
+    "longname": "src/Logger.js~Logger#[type]",
+    "access": "public",
+    "description": "Prints the given messages for the given message types.",
+    "examples": [
+      "<caption>Subscribing to specific log types</caption>\nLogger.on('warn', msg => console.log('Warning:', msg))\n  .warn('Test warning');\n// Will print \"Waring: Test warning\" to the console."
+    ],
+    "lineNumber": 63,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "...*"
+        ],
+        "spread": true,
+        "optional": false,
+        "name": "messages",
+        "description": "The messages to print."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Logger"
+      ],
+      "spread": false,
+      "description": "The logger instance."
+    },
+    "emits": [
+      {
+        "types": [
+          "string"
+        ],
+        "description": "Emits an event named after `type` with the message printed."
+      }
+    ],
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "member",
+    "name": "['LEVEL_' + typeName]",
+    "memberof": "src/Logger.js~Logger",
+    "static": false,
+    "longname": "src/Logger.js~Logger#['LEVEL_' + typeName]",
+    "access": "public",
+    "description": "The log levels available.",
+    "lineNumber": 71,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "member",
+    "name": "_scope",
+    "memberof": "src/Logger.js~Logger",
+    "static": false,
+    "longname": "src/Logger.js~Logger#_scope",
+    "access": "private",
+    "description": "The current logger scope.",
+    "lineNumber": 78,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string[]"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "member",
+    "name": "colors",
+    "memberof": "src/Logger.js~Logger",
+    "static": false,
+    "longname": "src/Logger.js~Logger#colors",
+    "access": "public",
+    "description": "The colors used.",
+    "lineNumber": 84,
+    "type": {
+      "nullable": null,
+      "types": [
+        "chalk"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "get",
+    "name": "scope",
+    "memberof": "src/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Logger.js~Logger#scope",
+    "access": "public",
+    "description": "The current logger scope.",
+    "lineNumber": 91,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string[]"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "method",
+    "name": "createChild",
+    "memberof": "src/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Logger.js~Logger#createChild",
+    "access": "public",
+    "description": "Creates a child logger instance. Basically creates a new logger instance with the same setup\nwith `name` as an additional scope entry.",
+    "lineNumber": 101,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": "The child logger's name."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Logger"
+      ],
+      "spread": false,
+      "description": "A new logger instance."
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "get",
+    "name": "timestamp",
+    "memberof": "src/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Logger.js~Logger#timestamp",
+    "access": "public",
+    "description": "A formatted timestamp.",
+    "lineNumber": 118,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "get",
+    "name": "prefix",
+    "memberof": "src/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Logger.js~Logger#prefix",
+    "access": "public",
+    "description": "The message prefix. Override this getter in your own logger class to customize output.",
+    "lineNumber": 132,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "method",
+    "name": "_format",
+    "memberof": "src/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Logger.js~Logger#_format",
+    "access": "private",
+    "description": "Creates a log message from some messages, prefixed and postfixed with a newline.",
+    "lineNumber": 141,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "messages",
+        "description": "The messages to format."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": "The resulting message."
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "method",
+    "name": "typesForLevel",
+    "memberof": "src/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Logger.js~Logger#typesForLevel",
+    "access": "public",
+    "description": "Returns the log types that should be handled for the specific log level.",
+    "lineNumber": 152,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "logLevel",
+        "description": "The log level to use."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string[]"
+      ],
+      "spread": false,
+      "description": "The log types to handle."
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "method",
+    "name": "pipe",
+    "memberof": "src/Logger.js~Logger",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Logger.js~Logger#pipe",
+    "access": "public",
+    "description": "Writes all logs to a writable stream.",
+    "examples": [
+      "<caption>Pipe logger output to stdout</caption>\nLogger.pipe(process.stdout);",
+      "<caption>Pipe with specific log level</caption>\nLogger.pipe(process.stdout, { logLevel: Logger.LEVEL_ERROR });\n// In this case, only error messages will be printed to stdout"
+    ],
+    "lineNumber": 171,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "stream~Writable"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "stream",
+        "description": "The stream to write to."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "options",
+        "description": "The options to use."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "3",
+        "defaultRaw": 3,
+        "name": "options.logLevel",
+        "description": "The log level from which to write."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Logger"
+      ],
+      "spread": false,
+      "description": "The logger instance."
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import LoggerClass from './Logger';\n\n/** @ignore */\nclass Logger extends LoggerClass {}\n\n/**\n * The shared {@link Logger} instance.\n * @type {Logger}\n */\nexport default new Logger();\nexport { LoggerClass as Logger };\n",
+    "static": true,
+    "longname": "/home/circleci/project/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "class",
+    "name": "Logger",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~Logger",
+    "access": "public",
+    "export": true,
+    "importPath": "@ls-age/logger/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "ignore": true,
+    "pseudoExport": true,
+    "interface": false,
+    "extends": [
+      "src/Logger.js~LoggerClass"
+    ]
+  },
+  {
+    "__docId__": 68,
+    "kind": "variable",
+    "name": "logger",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~logger",
+    "access": "public",
+    "export": true,
+    "importPath": "@ls-age/logger/src/index.js",
+    "importStyle": "logger",
+    "description": "The shared {@link Logger} instance.",
+    "lineNumber": 10,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Logger"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "file",
+    "name": "src/lib/Format.js",
+    "content": "/**\n * Created by lukas on 11/03/2017.\n */\n",
+    "static": true,
+    "longname": "/home/circleci/project/src/lib/Format.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 70,
+    "kind": "file",
+    "name": "src/typedef/node.js",
+    "content": "/**\n * @external {stream~Writable} https://nodejs.org/api/stream.html#stream_class_stream_writable\n */\n",
+    "static": true,
+    "longname": "/home/circleci/project/src/typedef/node.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 71,
+    "kind": "external",
+    "name": "stream~Writable",
+    "externalLink": "https://nodejs.org/api/stream.html#stream_class_stream_writable",
+    "memberof": "src/typedef/node.js",
+    "static": true,
+    "longname": "src/typedef/node.js~stream~Writable",
+    "access": "public",
+    "description": ""
+  },
+  {
+    "kind": "index",
+    "content": "# @ls-age/logger\n\n> Logging made easy\n\n[![CircleCI](https://circleci.com/gh/ls-age/logger.svg?style=shield)](https://circleci.com/gh/ls-age/logger)\n[![codecov](https://codecov.io/gh/ls-age/logger/branch/master/graph/badge.svg)](https://codecov.io/gh/ls-age/logger)\n[![ESDoc](https://doc.esdoc.org/github.com/ls-age/logger/badge.svg)](https://doc.esdoc.org/github.com/ls-age/logger/)\n[![Greenkeeper badge](https://badges.greenkeeper.io/ls-age/logger.svg)](https://greenkeeper.io/)\n\n**This module is still under development and should not be used yet.**\n\n## Installation\n\nWith [node](https://nodejs.org) (version 6 or later) installed run `npm install @lsage/logger`.\n\n## Usage\n\n```javascript\nimport Logger from '@ls-age/logger';\n\n// Pipe all logs to stdout\nLogger.pipe(process.stdout);\n\n// This will print something like \"[08:03:27] Hello World\"\nLogger.info('Hello World');\n```\n",
+    "longname": "/home/circleci/project/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"@ls-age/logger\",\n  \"version\": \"0.5.0-beta.0\",\n  \"description\": \"Logging made easy\",\n  \"main\": \"out/index.js\",\n  \"scripts\": {\n    \"compile\": \"babel src -d out\",\n    \"compile:watch\": \"npm run compile -- --watch\",\n    \"docs\": \"esdoc -c esdoc.json\",\n    \"lint\": \"eslint src test\",\n    \"prepublishOnly\": \"npm run compile && npm run docs\",\n    \"test\": \"mocha --recursive --require babel-register \\\"test/src/**/*.spec.js\\\"\",\n    \"test:watch\": \"npm test -- --watch --reporter min\",\n    \"test:coverage\": \"NODE_ENV=test nyc --reporter=html npm test\",\n    \"test:docs\": \"blcl docs/api --exclude https://circleci.com/gh/ls-age/logger\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/ls-age/logger.git\"\n  },\n  \"keywords\": [\n    \"nodejs\",\n    \"logging\"\n  ],\n  \"author\": \"Lukas Hechenberger <npm@ls-age.com>\",\n  \"license\": \"MIT\",\n  \"bugs\": {\n    \"url\": \"https://github.com/ls-age/logger/issues\"\n  },\n  \"homepage\": \"https://github.com/ls-age/logger#readme\",\n  \"devDependencies\": {\n    \"@ls-age/bump-version\": \"^0.1.2\",\n    \"babel-cli\": \"^6.23.0\",\n    \"babel-plugin-istanbul\": \"^4.0.0\",\n    \"babel-preset-node6\": \"^11.0.0\",\n    \"broken-link-checker-local\": \"^0.1.1\",\n    \"codecov\": \"^3.0.0\",\n    \"esdoc\": \"^1.0.4\",\n    \"esdoc-plugin-require-coverage\": \"^0.1.2\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^4.16.0\",\n    \"eslint-config-lsage\": \"^0.3.0\",\n    \"greenkeeper-lockfile\": \"^1.13.1\",\n    \"mocha\": \"^5.0.0\",\n    \"mocha-circleci-reporter\": \"0.0.2\",\n    \"nyc\": \"^11.4.1\",\n    \"sinon\": \"^4.2.1\",\n    \"unexpected\": \"^10.26.3\"\n  },\n  \"dependencies\": {\n    \"chalk\": \"^2.3.0\",\n    \"left-pad\": \"^1.1.3\",\n    \"tildify\": \"^1.2.0\"\n  },\n  \"babel\": {\n    \"presets\": [\n      \"node6\"\n    ],\n    \"env\": {\n      \"test\": {\n        \"plugins\": [\n          \"istanbul\"\n        ]\n      }\n    }\n  },\n  \"eslintConfig\": {\n    \"extends\": \"lsage\"\n  },\n  \"nyc\": {\n    \"all\": true,\n    \"include\": [\n      \"src/**/*.js\"\n    ],\n    \"exclude\": [\n      \"res/**/*.*\"\n    ],\n    \"require\": [\n      \"babel-register\"\n    ],\n    \"sourceMap\": false,\n    \"instrument\": false,\n    \"check-coverage\": true\n  }\n}\n",
+    "longname": "/home/circleci/project/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualIndex",
+    "globalIndex": false,
+    "content": null,
+    "longname": "",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/circleci/project/docs/manual/usage/API.md",
+    "name": "./docs/manual/usage/API.md",
+    "content": "# API\n\n> **Note:** This module is written in [ES2015 JavaScript](http://babeljs.io/learn-es2015/) so make sure you have a basic understanding for ES2015 before you continue reading.\n\n## Using the logger\n\n### Print logs to stdout\n\nYou can pipe any writeable stream to a Logger by calling [Logger#pipe](../../class/src/Logger.js~Logger.html#instance-method-pipe). As *stout* is such a writable stream it can be piped directly:\n\n```javascript\nimport Logger from '@ls-age';\n\nLogger.pipe(process.stdout);\n```\n\nBy default, this tells the logger to print all *error*, *warn* and *info* messages to stdout. You can also pass a *logLevel* option to print just specific messages:\n\n```javascript\nLogger.pipe({ logLevel: Logger.LEVEL_ERROR });\n```\n\n### Log types and levels\n\n**By default, the *error*, *warn*, *info* and *debug* are used as types.**\n\nA logger has different message types. Each type has it's own logging function and level. E.g. when a Logger instance has a *info* log type, it creates the logging function `Logger#info` and the level constant `Logger#LEVEL_INFO`.\n\nIn our example we can log messages by calling:\n\n```javascript\nimport Logger from '@ls-age';\n\nLogger.info('Debug message');\n```\n\nUsing different log types makes it possible to adjust the logger's output. When a stream (e.g. stdout) is piped to the logger, only messages with the specified log level or higher are written. For the default log types this means:\n\n| Value | Name         | `error` | `warn`  | `info`  | `debug` |\n|------:|:-------------|:-------:|:------:|:--------:|:-------:|\n|     0 | LEVEL_SILENT |    x    |    x    |    x    |    x    |\n|     1 | LEVEL_ERROR  |    ✔    |    x    |    x    |    x    |\n|     2 | LEVEL_WARN   |    ✔    |    ✔    |    x    |    x    |\n|     3 | LEVEL_INFO   |    ✔    |    ✔    |    ✔    |    x    |\n|     4 | LEVEL_DEBUG  |    ✔    |    ✔    |    ✔    |    ✔    |\n\n## Create a custom instance\n\nBy default, a single shared instance of the [Logger class](../../class/src/Logger.js~Logger.html) is exported. You can create also create custom instance:\n\n```javascript\nimport { Logger } from '@ls-age/logger';\n\nconst customLogger = new Logger();\n```\n\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/circleci/project/CHANGELOG.md",
+    "name": "./CHANGELOG.md",
+    "content": "<a name=\"0.5.0-beta.0\"></a>\n# 0.5.0-beta.0 (2017-12-17)\n\n\n### Features\n\n* Do not print timestamps if created with `timestamp: false` ([ea32a3a](https://github.com/ls-age/logger/commits/ea32a3a))\n\n\n\n\n<a name=\"0.4.0\"></a>\n# 0.4.0 (2017-12-17)\n\n\n### Features\n\n* **Logger:** Add `scope` to prefix logs ([cec7e3a](https://github.com/ls-age/logger/commits/cec7e3a))\n* **Logger:** Use #createChild to create child instances ([d8cb969](https://github.com/ls-age/logger/commits/d8cb969))\n\n\n\n\n<a name=\"0.2.0\"></a>\n# 0.2.0 (2017-03-14)\n\n\n### Bug Fixes\n\n* **release:** Publish generated files to npm ([7a0f82b](https://github.com/ls-age/logger/commits/7a0f82b))\n\n\n\n\n<a name=\"0.1.2\"></a>\n## 0.1.2 (2017-03-12)\n\n\n### Bug Fixes\n\n* **docs:** Replace invalid exclude URL ([95d120a](https://github.com/ls-age/logger/commits/95d120a))\n* **docs:** Replace invalid module name ([06ae84a](https://github.com/ls-age/logger/commits/06ae84a))\n* **docs:** Replace invalid module name ([6cbcfbe](https://github.com/ls-age/logger/commits/6cbcfbe))\n\n\n### Features\n\n* **docs:** Add usage manual ([509bde6](https://github.com/ls-age/logger/commits/509bde6))\n* **Logger:** Add #LEVEL_SILENT constant ([5ac07c0](https://github.com/ls-age/logger/commits/5ac07c0))\n\n\n\n\n<a name=\"0.1.1\"></a>\n## 0.1.1 (2017-03-12)\n\n\n### Bug Fixes\n\n* **release:** Replace invalid package name ([784dfb5](https://github.com/ls-age/logger/commits/784dfb5))\n\n\n\n\n<a name=\"0.1.0\"></a>\n# 0.1.0 (2017-03-12)\n\n\n### Bug Fixes\n\n* **package:** Create docs in prepublish script ([c1ec6b7](https://github.com/ls-age/logger/commits/c1ec6b7))\n\n\n### Features\n\n* Initial implementation ([35f7059](https://github.com/ls-age/logger/commits/35f7059))\n\n\n\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "__docId__": 72,
+    "kind": "testFile",
+    "name": "src/Logger.spec.js",
+    "content": "import Emitter from 'events';\nimport { Transform } from 'stream';\nimport expect from 'unexpected';\nimport { spy } from 'sinon';\nimport Logger from '../../src/Logger';\n\nclass NoopTransformStream extends Transform {\n\n  _transform(chunk, enc, callback) {\n    callback(null, chunk);\n  }\n\n}\n\n/** @test {Logger} */\ndescribe('Logger', function() {\n  /** @test {Logger#constructor} */\n  describe('#constructor', function() {\n    it('should return an emitter', function() {\n      expect(new Logger(), 'to be an', Emitter);\n    });\n\n    it('should handle types option', function() {\n      const types = ['first', 'second'];\n      expect((new Logger({ types }))._types, 'to be', types);\n    });\n\n    it('should register log methods for all types', function() {\n      const logger = new Logger();\n\n      Logger.defaultTypes.forEach(type => {\n        expect(logger[type], 'to be defined');\n        expect(logger[type], 'to be a', 'function');\n      });\n    });\n\n    it('should register levels for all types', function() {\n      const logger = new Logger();\n\n      Logger.defaultTypes.forEach(type => {\n        expect(logger[`LEVEL_${type.toUpperCase()}`], 'to be defined');\n        expect(logger[`LEVEL_${type.toUpperCase()}`], 'to be a', 'number');\n      });\n    });\n\n    it('should store scope array', function() {\n      const scope = ['scope', 'another'];\n      const logger = new Logger({ scope });\n\n      expect(logger.scope, 'to equal', scope);\n    });\n\n    it('should store single scope', function() {\n      const scope = 'scope';\n      const logger = new Logger({ scope });\n\n      expect(logger.scope, 'to equal', [scope]);\n    });\n\n    it('should set no scope if omitted', function() {\n      const logger = new Logger({ scope: false });\n\n      expect(logger.scope, 'to equal', []);\n    });\n\n    it('should store timestamp option', function() {\n      const logger = new Logger({ timestamp: false });\n\n      expect(logger._printTimestamp, 'to equal', false);\n    });\n  });\n\n  /** @test {Logger#createChild} */\n  describe('#createChild', function() {\n    it('should create a new logger instance', function() {\n      const parent = new Logger();\n      const child = parent.createChild('child');\n\n      expect(child, 'to be a', Logger);\n    });\n\n    it('should forward options', function() {\n      const types = ['a', 'b'];\n      const timestamp = false;\n      const parent = new Logger({ types, timestamp });\n      const child = parent.createChild('child');\n\n      expect(child._types, 'to equal', parent._types);\n      expect(child._printTimestamp, 'to equal', parent._printTimestamp);\n    });\n\n    it('should forward events to original instance', function() {\n      const parent = new Logger();\n      const child = parent.createChild('child');\n\n      const messageReceived = new Promise(resolve => {\n        parent.on('info', resolve);\n      });\n\n      child.info('Test message');\n\n      return expect(messageReceived, 'when fulfilled', 'to contain', 'Test message');\n    });\n\n    it('should prefix messages with name', function() {\n      const parent = new Logger();\n      const child = parent.createChild('child');\n\n      const messageReceived = new Promise(resolve => {\n        parent.on('info', resolve);\n      });\n\n      child.info('Test message');\n\n      return expect(messageReceived, 'when fulfilled', 'to contain', 'child');\n    });\n  });\n\n  /** @test {Logger#[type]} */\n  describe('#[type]', function() {\n    it('should emit `type` events', function() {\n      const logger = new Logger();\n\n      return Promise.all(\n        Logger.defaultTypes.map(type => new Promise((resolve, reject) => {\n          logger.on(type, msg => {\n            try {\n              resolve(expect(msg, 'to contain', type));\n            } catch (e) {\n              reject(e);\n            }\n          });\n          logger[type](`${type} message`);\n        }))\n      );\n    });\n\n    it('should print timestamps by default', function() {\n      const logger = new Logger({});\n      const messageReceived = new Promise(resolve => {\n        logger.on('info', resolve);\n      });\n\n      logger.info('Test message');\n\n      return expect(messageReceived, 'when fulfilled', 'to match', /[0-9]{2}:[0-9]{2}:[0-9]{2}/);\n    });\n\n    it('should print scope', function() {\n      const scope = 'scope';\n      const logger = new Logger({ scope });\n\n      const messageReceived = new Promise(resolve => {\n        logger.on('info', resolve);\n      });\n\n      logger.info('Test message');\n\n      return expect(messageReceived, 'when fulfilled', 'to contain', 'scope');\n    });\n\n    it('should not print timestamps if created with `timestamp: false`', function() {\n      const logger = new Logger({ timestamp: false });\n      const messageReceived = new Promise(resolve => {\n        logger.on('info', resolve);\n      });\n\n      logger.info('Test message');\n\n      return expect(messageReceived, 'when fulfilled', 'to match', /Test message\\r?\\n/);\n    });\n  });\n\n  /** @test {Logger#prefix} */\n  describe('#prefix', function() {\n    it('should return a timestamp', function() {\n      expect((new Logger()).prefix[0], 'to match', /\\[.*[0-9]{2}:[0-9]{2}:[0-9]{2}.*\\]/);\n    });\n  });\n\n  /** @test {Logger#_format} */\n  describe('#_format', function() {\n    it('should join string arguments', function() {\n      expect((new Logger())._format(['first', 'second']), 'to contain', 'first second');\n    });\n\n    it('should add a newline', function() {\n      expect((new Logger())._format(['first', 'second']), 'to end with', '\\n');\n    });\n  });\n\n  /** @test {Logger#pipe} */\n  describe('#pipe', function() {\n    it('should write logs to stream', function(done) {\n      const stream = new NoopTransformStream();\n\n      const logger = new Logger()\n        .pipe(stream);\n\n      stream.on('data', msg => {\n        expect(msg.toString(), 'to contain', 'Test');\n        done();\n      });\n\n      logger.info('Test');\n    });\n\n    it('should remove listeners on close', function() {\n      const stream = new NoopTransformStream();\n      const logger = new Logger()\n        .pipe(stream);\n\n      stream.end();\n\n      Logger.defaultTypes.forEach(type => {\n        expect(logger.listenerCount(type), 'to be', 0);\n      });\n    });\n\n    it('should handle logLevel option', function() {\n      const onData = spy();\n      const stream = new NoopTransformStream()\n        .on('data', onData);\n      const logger = new Logger()\n        .pipe(stream, { logLevel: 2 });\n\n      logger.info('Test info');\n      logger.warn('Test warning');\n\n      expect(onData.calledOnce, 'to be', true);\n      expect(onData.lastCall.args[0].toString(), 'to contain', 'Test warning');\n    });\n  });\n});\n",
+    "static": true,
+    "longname": "/home/circleci/project/test/src/Logger.spec.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 73,
+    "kind": "test",
+    "name": "describe0",
+    "testId": 0,
+    "memberof": "src/Logger.spec.js",
+    "testDepth": 0,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0",
+    "access": null,
+    "description": "Logger",
+    "lineNumber": 16,
+    "testTargets": [
+      "Logger"
+    ]
+  },
+  {
+    "__docId__": 74,
+    "kind": "test",
+    "name": "describe1",
+    "testId": 1,
+    "memberof": "src/Logger.spec.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe1",
+    "access": null,
+    "description": "#constructor",
+    "lineNumber": 18,
+    "testTargets": [
+      "Logger#constructor"
+    ]
+  },
+  {
+    "__docId__": 75,
+    "kind": "test",
+    "name": "it2",
+    "testId": 2,
+    "memberof": "src/Logger.spec.js~describe0.describe1",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe1.it2",
+    "access": null,
+    "description": "should return an emitter",
+    "lineNumber": 19
+  },
+  {
+    "__docId__": 76,
+    "kind": "test",
+    "name": "it3",
+    "testId": 3,
+    "memberof": "src/Logger.spec.js~describe0.describe1",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe1.it3",
+    "access": null,
+    "description": "should handle types option",
+    "lineNumber": 23
+  },
+  {
+    "__docId__": 77,
+    "kind": "test",
+    "name": "it4",
+    "testId": 4,
+    "memberof": "src/Logger.spec.js~describe0.describe1",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe1.it4",
+    "access": null,
+    "description": "should register log methods for all types",
+    "lineNumber": 28
+  },
+  {
+    "__docId__": 78,
+    "kind": "test",
+    "name": "it5",
+    "testId": 5,
+    "memberof": "src/Logger.spec.js~describe0.describe1",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe1.it5",
+    "access": null,
+    "description": "should register levels for all types",
+    "lineNumber": 37
+  },
+  {
+    "__docId__": 79,
+    "kind": "test",
+    "name": "it6",
+    "testId": 6,
+    "memberof": "src/Logger.spec.js~describe0.describe1",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe1.it6",
+    "access": null,
+    "description": "should store scope array",
+    "lineNumber": 46
+  },
+  {
+    "__docId__": 80,
+    "kind": "test",
+    "name": "it7",
+    "testId": 7,
+    "memberof": "src/Logger.spec.js~describe0.describe1",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe1.it7",
+    "access": null,
+    "description": "should store single scope",
+    "lineNumber": 53
+  },
+  {
+    "__docId__": 81,
+    "kind": "test",
+    "name": "it8",
+    "testId": 8,
+    "memberof": "src/Logger.spec.js~describe0.describe1",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe1.it8",
+    "access": null,
+    "description": "should set no scope if omitted",
+    "lineNumber": 60
+  },
+  {
+    "__docId__": 82,
+    "kind": "test",
+    "name": "it9",
+    "testId": 9,
+    "memberof": "src/Logger.spec.js~describe0.describe1",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe1.it9",
+    "access": null,
+    "description": "should store timestamp option",
+    "lineNumber": 66
+  },
+  {
+    "__docId__": 83,
+    "kind": "test",
+    "name": "describe10",
+    "testId": 10,
+    "memberof": "src/Logger.spec.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe10",
+    "access": null,
+    "description": "#createChild",
+    "lineNumber": 74,
+    "testTargets": [
+      "Logger#createChild"
+    ]
+  },
+  {
+    "__docId__": 84,
+    "kind": "test",
+    "name": "it11",
+    "testId": 11,
+    "memberof": "src/Logger.spec.js~describe0.describe10",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe10.it11",
+    "access": null,
+    "description": "should create a new logger instance",
+    "lineNumber": 75
+  },
+  {
+    "__docId__": 85,
+    "kind": "test",
+    "name": "it12",
+    "testId": 12,
+    "memberof": "src/Logger.spec.js~describe0.describe10",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe10.it12",
+    "access": null,
+    "description": "should forward options",
+    "lineNumber": 82
+  },
+  {
+    "__docId__": 86,
+    "kind": "test",
+    "name": "it13",
+    "testId": 13,
+    "memberof": "src/Logger.spec.js~describe0.describe10",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe10.it13",
+    "access": null,
+    "description": "should forward events to original instance",
+    "lineNumber": 92
+  },
+  {
+    "__docId__": 87,
+    "kind": "test",
+    "name": "it14",
+    "testId": 14,
+    "memberof": "src/Logger.spec.js~describe0.describe10",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe10.it14",
+    "access": null,
+    "description": "should prefix messages with name",
+    "lineNumber": 105
+  },
+  {
+    "__docId__": 88,
+    "kind": "test",
+    "name": "describe15",
+    "testId": 15,
+    "memberof": "src/Logger.spec.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe15",
+    "access": null,
+    "description": "#[type]",
+    "lineNumber": 120,
+    "testTargets": [
+      "Logger#[type]"
+    ]
+  },
+  {
+    "__docId__": 89,
+    "kind": "test",
+    "name": "it16",
+    "testId": 16,
+    "memberof": "src/Logger.spec.js~describe0.describe15",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe15.it16",
+    "access": null,
+    "description": "should emit `type` events",
+    "lineNumber": 121
+  },
+  {
+    "__docId__": 90,
+    "kind": "test",
+    "name": "it17",
+    "testId": 17,
+    "memberof": "src/Logger.spec.js~describe0.describe15",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe15.it17",
+    "access": null,
+    "description": "should print timestamps by default",
+    "lineNumber": 138
+  },
+  {
+    "__docId__": 91,
+    "kind": "test",
+    "name": "it18",
+    "testId": 18,
+    "memberof": "src/Logger.spec.js~describe0.describe15",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe15.it18",
+    "access": null,
+    "description": "should print scope",
+    "lineNumber": 149
+  },
+  {
+    "__docId__": 92,
+    "kind": "test",
+    "name": "it19",
+    "testId": 19,
+    "memberof": "src/Logger.spec.js~describe0.describe15",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe15.it19",
+    "access": null,
+    "description": "should not print timestamps if created with `timestamp: false`",
+    "lineNumber": 162
+  },
+  {
+    "__docId__": 93,
+    "kind": "test",
+    "name": "describe20",
+    "testId": 20,
+    "memberof": "src/Logger.spec.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe20",
+    "access": null,
+    "description": "#prefix",
+    "lineNumber": 175,
+    "testTargets": [
+      "Logger#prefix"
+    ]
+  },
+  {
+    "__docId__": 94,
+    "kind": "test",
+    "name": "it21",
+    "testId": 21,
+    "memberof": "src/Logger.spec.js~describe0.describe20",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe20.it21",
+    "access": null,
+    "description": "should return a timestamp",
+    "lineNumber": 176
+  },
+  {
+    "__docId__": 95,
+    "kind": "test",
+    "name": "describe22",
+    "testId": 22,
+    "memberof": "src/Logger.spec.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe22",
+    "access": null,
+    "description": "#_format",
+    "lineNumber": 182,
+    "testTargets": [
+      "Logger#_format"
+    ]
+  },
+  {
+    "__docId__": 96,
+    "kind": "test",
+    "name": "it23",
+    "testId": 23,
+    "memberof": "src/Logger.spec.js~describe0.describe22",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe22.it23",
+    "access": null,
+    "description": "should join string arguments",
+    "lineNumber": 183
+  },
+  {
+    "__docId__": 97,
+    "kind": "test",
+    "name": "it24",
+    "testId": 24,
+    "memberof": "src/Logger.spec.js~describe0.describe22",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe22.it24",
+    "access": null,
+    "description": "should add a newline",
+    "lineNumber": 187
+  },
+  {
+    "__docId__": 98,
+    "kind": "test",
+    "name": "describe25",
+    "testId": 25,
+    "memberof": "src/Logger.spec.js~describe0",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe25",
+    "access": null,
+    "description": "#pipe",
+    "lineNumber": 193,
+    "testTargets": [
+      "Logger#pipe"
+    ]
+  },
+  {
+    "__docId__": 99,
+    "kind": "test",
+    "name": "it26",
+    "testId": 26,
+    "memberof": "src/Logger.spec.js~describe0.describe25",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe25.it26",
+    "access": null,
+    "description": "should write logs to stream",
+    "lineNumber": 194
+  },
+  {
+    "__docId__": 100,
+    "kind": "test",
+    "name": "it27",
+    "testId": 27,
+    "memberof": "src/Logger.spec.js~describe0.describe25",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe25.it27",
+    "access": null,
+    "description": "should remove listeners on close",
+    "lineNumber": 208
+  },
+  {
+    "__docId__": 101,
+    "kind": "test",
+    "name": "it28",
+    "testId": 28,
+    "memberof": "src/Logger.spec.js~describe0.describe25",
+    "testDepth": 2,
+    "static": true,
+    "longname": "src/Logger.spec.js~describe0.describe25.it28",
+    "access": null,
+    "description": "should handle logLevel option",
+    "lineNumber": 220
+  },
+  {
+    "__docId__": 102,
+    "kind": "testFile",
+    "name": "src/index.spec.js",
+    "content": "import expect from 'unexpected';\nimport logger, { Logger } from '../../src/index';\nimport LoggerClass from '../../src/Logger';\n\n/** @test {logger} */\ndescribe('logger', function() {\n  it('should return a Logger instance', function() {\n    expect(logger, 'to be a', LoggerClass);\n  });\n\n  it('should export Logger class', function() {\n    expect(Logger, 'to be', LoggerClass);\n  });\n});\n",
+    "static": true,
+    "longname": "/home/circleci/project/test/src/index.spec.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 103,
+    "kind": "test",
+    "name": "describe29",
+    "testId": 29,
+    "memberof": "src/index.spec.js",
+    "testDepth": 0,
+    "static": true,
+    "longname": "src/index.spec.js~describe29",
+    "access": null,
+    "description": "logger",
+    "lineNumber": 6,
+    "testTargets": [
+      "logger"
+    ]
+  },
+  {
+    "__docId__": 104,
+    "kind": "test",
+    "name": "it30",
+    "testId": 30,
+    "memberof": "src/index.spec.js~describe29",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/index.spec.js~describe29.it30",
+    "access": null,
+    "description": "should return a Logger instance",
+    "lineNumber": 7
+  },
+  {
+    "__docId__": 105,
+    "kind": "test",
+    "name": "it31",
+    "testId": 31,
+    "memberof": "src/index.spec.js~describe29",
+    "testDepth": 1,
+    "static": true,
+    "longname": "src/index.spec.js~describe29.it31",
+    "access": null,
+    "description": "should export Logger class",
+    "lineNumber": 11
+  }
+]

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../">
+  <title data-ice="title">Manual | @lsage/logger</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Logging made easy"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@lsage/logger"><meta property="twitter:description" content="Logging made easy"></head>
+<body class="layout-container manual-root" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/ls-age/logger"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div class="manual-toc-root">
+  
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/API.html"><a href="manual/API.html" data-ice="link">API</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/API.html"><a href="manual/API.html#using-the-logger" data-ice="link">Using the logger</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/API.html"><a href="manual/API.html#print-logs-to-stdout" data-ice="link">Print logs to stdout</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/API.html"><a href="manual/API.html#log-types-and-levels" data-ice="link">Log types and levels</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/API.html"><a href="manual/API.html#create-a-custom-instance" data-ice="link">Create a custom instance</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#0-5-0-beta-0--2017-12-17-" data-ice="link">0.5.0-beta.0 (2017-12-17)</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#features" data-ice="link">Features</a></li>
+<li data-ice="manualNav" class="indent-h1" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#0-4-0--2017-12-17-" data-ice="link">0.4.0 (2017-12-17)</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#features" data-ice="link">Features</a></li>
+<li data-ice="manualNav" class="indent-h1" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#0-2-0--2017-03-14-" data-ice="link">0.2.0 (2017-03-14)</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#bug-fixes" data-ice="link">Bug Fixes</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#0-1-2--2017-03-12-" data-ice="link">0.1.2 (2017-03-12)</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#bug-fixes" data-ice="link">Bug Fixes</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#features" data-ice="link">Features</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#0-1-1--2017-03-12-" data-ice="link">0.1.1 (2017-03-12)</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#bug-fixes" data-ice="link">Bug Fixes</a></li>
+<li data-ice="manualNav" class="indent-h1" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#0-1-0--2017-03-12-" data-ice="link">0.1.0 (2017-03-12)</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#bug-fixes" data-ice="link">Bug Fixes</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/CHANGELOG.html"><a href="manual/CHANGELOG.html#features" data-ice="link">Features</a></li>
+</ul>
+  </div>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div class="github-markdown" data-ice="content"><p><a name="0.5.0-beta.0"></a></p>
+<h1 id="0-5-0-beta-0--2017-12-17-">0.5.0-beta.0 (2017-12-17)</h1><h3 id="features">Features</h3><ul>
+<li>Do not print timestamps if created with <code>timestamp: false</code> (<a href="https://github.com/ls-age/logger/commits/ea32a3a">ea32a3a</a>)</li>
+</ul>
+<p><a name="0.4.0"></a></p>
+<h1 id="0-4-0--2017-12-17-">0.4.0 (2017-12-17)</h1><h3 id="features">Features</h3><ul>
+<li><strong>Logger:</strong> Add <code>scope</code> to prefix logs (<a href="https://github.com/ls-age/logger/commits/cec7e3a">cec7e3a</a>)</li>
+<li><strong>Logger:</strong> Use #createChild to create child instances (<a href="https://github.com/ls-age/logger/commits/d8cb969">d8cb969</a>)</li>
+</ul>
+<p><a name="0.2.0"></a></p>
+<h1 id="0-2-0--2017-03-14-">0.2.0 (2017-03-14)</h1><h3 id="bug-fixes">Bug Fixes</h3><ul>
+<li><strong>release:</strong> Publish generated files to npm (<a href="https://github.com/ls-age/logger/commits/7a0f82b">7a0f82b</a>)</li>
+</ul>
+<p><a name="0.1.2"></a></p>
+<h2 id="0-1-2--2017-03-12-">0.1.2 (2017-03-12)</h2><h3 id="bug-fixes">Bug Fixes</h3><ul>
+<li><strong>docs:</strong> Replace invalid exclude URL (<a href="https://github.com/ls-age/logger/commits/95d120a">95d120a</a>)</li>
+<li><strong>docs:</strong> Replace invalid module name (<a href="https://github.com/ls-age/logger/commits/06ae84a">06ae84a</a>)</li>
+<li><strong>docs:</strong> Replace invalid module name (<a href="https://github.com/ls-age/logger/commits/6cbcfbe">6cbcfbe</a>)</li>
+</ul>
+<h3 id="features">Features</h3><ul>
+<li><strong>docs:</strong> Add usage manual (<a href="https://github.com/ls-age/logger/commits/509bde6">509bde6</a>)</li>
+<li><strong>Logger:</strong> Add #LEVEL_SILENT constant (<a href="https://github.com/ls-age/logger/commits/5ac07c0">5ac07c0</a>)</li>
+</ul>
+<p><a name="0.1.1"></a></p>
+<h2 id="0-1-1--2017-03-12-">0.1.1 (2017-03-12)</h2><h3 id="bug-fixes">Bug Fixes</h3><ul>
+<li><strong>release:</strong> Replace invalid package name (<a href="https://github.com/ls-age/logger/commits/784dfb5">784dfb5</a>)</li>
+</ul>
+<p><a name="0.1.0"></a></p>
+<h1 id="0-1-0--2017-03-12-">0.1.0 (2017-03-12)</h1><h3 id="bug-fixes">Bug Fixes</h3><ul>
+<li><strong>package:</strong> Create docs in prepublish script (<a href="https://github.com/ls-age/logger/commits/c1ec6b7">c1ec6b7</a>)</li>
+</ul>
+<h3 id="features">Features</h3><ul>
+<li>Initial implementation (<a href="https://github.com/ls-age/logger/commits/35f7059">35f7059</a>)</li>
+</ul>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.4)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
