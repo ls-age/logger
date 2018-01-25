@@ -23,7 +23,7 @@ export default class Logger extends Emitter {
    * @param {Object} [options] The options to use.
    * @param {string[]} [options.types=Logger.defaultTypes] The log types the new
    * instance should have.
-   * @param {string[]|string} [options.scope=[]] The logger's scope
+   * @param {string[]|string} [options.scope=[]] The logger's scope.
    */
   constructor({ types = Logger.defaultTypes, scope = [] } = {}) {
     super();
@@ -139,7 +139,7 @@ export default class Logger extends Emitter {
 
   /**
    * Writes all logs to a writable stream.
-   * @param {stream~Writable} stream The stream to write to
+   * @param {stream~Writable} stream The stream to write to.
    * @param {Object} [options] The options to use.
    * @param {number} [options.logLevel=3] The log level from which to write.
    * @return {Logger} The logger instance.
