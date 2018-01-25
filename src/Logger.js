@@ -24,8 +24,9 @@ export default class Logger extends Emitter {
    * @param {string[]} [options.types=Logger.defaultTypes] The log types the new
    * instance should have.
    * @param {string[]|string} [options.scope=[]] The logger's scope.
+   * @param {boolean} [options.timestamp=true] If timestamps should be printed.
    */
-  constructor({ types = Logger.defaultTypes, scope = [] } = {}) {
+  constructor({ types = Logger.defaultTypes, scope = [], timestamp = true } = {}) {
     super();
 
     /**
@@ -33,6 +34,12 @@ export default class Logger extends Emitter {
      * @type {string[]}
      */
     this._types = types;
+
+    /**
+     * If messages should be prefixed by a timestamp.
+     * @type {boolean}
+     */
+    this._printTimestamp = timestamp;
 
     /**
      * The log level where no messages are printed.
@@ -92,7 +99,11 @@ export default class Logger extends Emitter {
    * @return {Logger} A new logger instance.
    */
   createChild(name) {
-    const child = new Logger({ types: this._types, scope: this.scope.concat(name) });
+    const child = new Logger({
+      types: this._types,
+      scope: this.scope.concat(name),
+      timestamp: this._printTimestamp,
+    });
 
     this._types.forEach(type => {
       child.on(type, e => this.emit(type, e));
@@ -102,16 +113,24 @@ export default class Logger extends Emitter {
   }
 
   /**
+   * A formatted timestamp.
+   */
+  get timestamp() {
+    const now = new Date();
+
+    return `[${this.colors.gray([
+      now.getHours(),
+      now.getMinutes(),
+      now.getSeconds(),
+    ].map(n => pad(n, 2, '0')).join(':'))}]`;
+  }
+
+  /**
    * The message prefix. Override this getter in your own logger class to customize output.
    * @type {string}
    */
   get prefix() {
-    const now = new Date();
-    return [`[${this.colors.gray([
-      now.getHours(),
-      now.getMinutes(),
-      now.getSeconds(),
-    ].map(n => pad(n, 2, '0')).join(':'))}]`, ...this._scope].join(' ');
+    return (this._printTimestamp ? [this.timestamp] : []).concat(this._scope);
   }
 
   /**
@@ -120,10 +139,8 @@ export default class Logger extends Emitter {
    * @return {string} The resulting message.
    */
   _format(messages) {
-    return `${this.prefix} ${
-      messages
-        .map(msg => msg)
-        .join(' ')
+    return `${
+      this.prefix.concat(messages).join(' ')
     }${EOL}`;
   }
 

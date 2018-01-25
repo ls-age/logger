@@ -62,6 +62,12 @@ describe('Logger', function() {
 
       expect(logger.scope, 'to equal', []);
     });
+
+    it('should store timestamp option', function() {
+      const logger = new Logger({ timestamp: false });
+
+      expect(logger._printTimestamp, 'to equal', false);
+    });
   });
 
   /** @test {Logger#createChild} */
@@ -71,6 +77,16 @@ describe('Logger', function() {
       const child = parent.createChild('child');
 
       expect(child, 'to be a', Logger);
+    });
+
+    it('should forward options', function() {
+      const types = ['a', 'b'];
+      const timestamp = false;
+      const parent = new Logger({ types, timestamp });
+      const child = parent.createChild('child');
+
+      expect(child._types, 'to equal', parent._types);
+      expect(child._printTimestamp, 'to equal', parent._printTimestamp);
     });
 
     it('should forward events to original instance', function() {
@@ -119,6 +135,17 @@ describe('Logger', function() {
       );
     });
 
+    it('should print timestamps by default', function() {
+      const logger = new Logger({});
+      const messageReceived = new Promise(resolve => {
+        logger.on('info', resolve);
+      });
+
+      logger.info('Test message');
+
+      return expect(messageReceived, 'when fulfilled', 'to match', /[0-9]{2}:[0-9]{2}:[0-9]{2}/);
+    });
+
     it('should print scope', function() {
       const scope = 'scope';
       const logger = new Logger({ scope });
@@ -131,12 +158,23 @@ describe('Logger', function() {
 
       return expect(messageReceived, 'when fulfilled', 'to contain', 'scope');
     });
+
+    it('should not print timestamps if created with `timestamp: false`', function() {
+      const logger = new Logger({ timestamp: false });
+      const messageReceived = new Promise(resolve => {
+        logger.on('info', resolve);
+      });
+
+      logger.info('Test message');
+
+      return expect(messageReceived, 'when fulfilled', 'to match', /Test message\r?\n/);
+    });
   });
 
   /** @test {Logger#prefix} */
   describe('#prefix', function() {
     it('should return a timestamp', function() {
-      expect((new Logger()).prefix, 'to match', /\[.*[0-9]{2}:[0-9]{2}:[0-9]{2}.*\]/);
+      expect((new Logger()).prefix[0], 'to match', /\[.*[0-9]{2}:[0-9]{2}:[0-9]{2}.*\]/);
     });
   });
 
