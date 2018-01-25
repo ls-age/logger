@@ -74,4 +74,4 @@ jobs:
 
             git config --global user.email circleci@circleci && git config --global user.name CircleCI && git remote --v
 
-            npx bump-version release --gh-token $GITHUB_TOKEN --verbose
+            npx bump-version release --release-files out docs/api --gh-token $GITHUB_TOKEN --verbose
