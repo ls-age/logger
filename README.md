@@ -1,5 +1,7 @@
 # @ls-age/logger
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ls-age/logger.svg)](https://greenkeeper.io/)
+
 > Logging made easy
 
 [![CircleCI](https://circleci.com/gh/ls-age/logger.svg?style=shield)](https://circleci.com/gh/ls-age/logger)
