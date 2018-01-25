@@ -113,7 +113,7 @@ export default class Logger extends Emitter {
   }
 
   /**
-   * A formatted timestamp
+   * A formatted timestamp.
    */
   get timestamp() {
     const now = new Date();
