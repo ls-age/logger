@@ -31,7 +31,7 @@
   "devDependencies": {
     "@ls-age/bump-version": "^0.1.2",
     "babel-cli": "^6.23.0",
-    "babel-plugin-istanbul": "^4.0.0",
+    "babel-plugin-istanbul": "^5.1.1",
     "babel-preset-node6": "^11.0.0",
     "broken-link-checker-local": "^0.1.1",
     "codecov": "^3.0.0",
