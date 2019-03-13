@@ -45,7 +45,7 @@
     "mocha-circleci-reporter": "0.0.2",
     "nyc": "^11.4.1",
     "sinon": "^4.2.1",
-    "unexpected": "^10.26.3"
+    "unexpected": "^11.2.0"
   },
   "dependencies": {
     "chalk": "^2.3.0",
